@@ -1,5 +1,4 @@
 //scripted jenkins file
-
 node('master') {
     try {
 		def app
@@ -130,4 +129,3 @@ node('master') {
         throw e
     }
 }
-
